@@ -1,28 +1,35 @@
-.merriweather{
-  font-family: "Merriweather", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+.merriweather {
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
-body{
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+body {
     margin: 0;
 }
 
-.banner{
+.banner {
     position: relative;
     display: flex;
 }
 
-.banner-text{
+.banner-text {
     position: absolute;
     top: 25%;
     text-align: center;
-    width: 100%;    
+    width: 100%;
 }
 
-.gradiant{
+.gradiant {
     background: linear-gradient(to bottom, transparent, black);
     opacity: 0.7;
     position: absolute;
@@ -31,25 +38,55 @@ body{
     border-radius: 15px;
 }
 
-.banner-img{
+.banner-img {
     border-radius: 15px;
 }
 
-.new-year-2{
+.new-year-2 {
     font-size: 72px;
     font-weight: bold;
     color: white;
 }
 
-.new-year-1{
+.new-year-1 {
     font-size: 32px;
     font-weight: normal;
     color: white;
 }
 
 
-.width-style{
+.width-style {
     width: 1320px;
     margin: 50px auto 0px;
 }
 
+.discount-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.discount-heading {
+    font-family: inter;
+    font-size: 90px;
+    font-weight: bold;
+    color: #FF0000;
+}
+
+.discount-primary {
+    font-family: inter;
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: medium;
+    
+}
+
+.discount-secondary {
+    font-family: inter;
+    color: #070211;
+    font-weight: bold;
+    font-size: 48px;
+
+}
